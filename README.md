@@ -22,7 +22,7 @@ Several images lack ground-truth data for specific attributes, denoted as "NA" i
 * **Solution:** Missing labels are converted to `-1.0`. During the forward pass, the loss is calculated using `BCEWithLogitsLoss(reduction='none')`. A mask is applied to zero-out the loss for missing attributes, ensuring we do not ignore the image completely.
 
 ### 2. Class Imbalance
-The dataset is skewed, with a huge difference in the number of images for each attribute[ : 21].
+The dataset is skewed, with a huge difference in the number of images for each attribute.
 * **Solution implemented:** Dynamic class weighting. Before training, the script calculates the ratio of negative to positive samples for each attribute. These ratios are passed into the `pos_weight` parameter of the PyTorch Loss function, penalizing the model more heavily for missing minority classes.
 
 ## 🚀 Future Improvements & Thoughts
@@ -37,5 +37,5 @@ Due to time constraints, the following techniques were not fully implemented but
 ### Setup
 Clone the repository:
 ```bash
-git clone [https://github.com/kabirkohli123/multilabel-classification.git](https://github.com/kabirkohli123/multilabel-classification.git)
+git clone [https://github.com/kabirkohli123/multilabel-classification.git](https://github.com/kabirkohli123/ML-Engineer-Technical-Test-AI_Monk.git)
 cd multilabel-classification
