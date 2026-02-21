@@ -37,5 +37,5 @@ Due to time constraints, the following techniques were not fully implemented but
 ### Setup
 Clone the repository:
 ```bash
-git clone [https://github.com/kabirkohli123/multilabel-classification.git](https://github.com/kabirkohli123/ML-Engineer-Technical-Test-AI_Monk.git)
-cd multilabel-classification
+git clone [https://github.com/kabirkohli123/ML-Engineer-Technical-Test-AI_Monk.git](https://github.com/kabirkohli123/ML-Engineer-Technical-Test-AI_Monk.git)
+cd ML-Engineer-Technical-Test-AI_Monk
